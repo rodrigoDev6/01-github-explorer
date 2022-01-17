@@ -1,5 +1,3 @@
 import React from "react";
+import { App } from './App'
 
-function App() {
-  return <h1>Hello Big World 10</h1>
-}
