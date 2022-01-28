@@ -1,5 +1,6 @@
+import { RepositoryList } from './styles/components/RepositoryList'
 import './styles/global.scss'
 
 export function App(){
-  return <h1>Projeto ReactJs Rodando no mint 20.3</h1>
+  return <RepositoryList />
 }

@@ -4,13 +4,12 @@
   box-sizing: border-box;
 }
 
-body{
-  font-family: sans-serif, Arial, Helvetica;
-  background-color: rgb(75, 80, 80);
 
-  h1{
-    text-align: center;
-    font-weight: lighter;
-    color: rgb(255, 251, 251);
-  }
+body{
+  font: 1rem "sans-serif";
+  color: #1b1b2b;
+  
+  .repository-list h1{
+    margin-bottom: 1rem;
+  }  
 }
