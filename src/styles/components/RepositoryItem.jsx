@@ -5,7 +5,7 @@ export function RepositoryItem(props){
     
           <p>{props.repository?.description ?? 'desc not found'}</p>
     
-          <a href={props.repository?.link ?? '#'}>Access Repository</a>
+          <a href={props.repository?.link ?? '#'} target='_blank'>Access Repository</a>
       </li>
   )
 }
