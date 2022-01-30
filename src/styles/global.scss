@@ -8,22 +8,4 @@
 body{
   font: 1rem "sans-serif";
   color: #1b1b2b;
-  
-  .repository-list h1{
-    margin-bottom: 1rem;
-  }  
-
-  .btn-increment{
-    padding: .5rem;
-    background: rgb(36, 79, 87);
-    
-    cursor: pointer;
-    color: #fff;
-
-    border: none;
-    border-radius: .3rem;
-    &:hover{
-      background: rgb(72, 120, 209);
-    }
-  }
 }
