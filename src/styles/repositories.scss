@@ -2,36 +2,55 @@
   margin: 3rem;
 
   h1{
+    text-align: center;
     font-family: Arial;
     font-size: 2rem;
-
-    
+    color: #fff;
   }
 
 
   ul{
+    display: grid;
+    justify-items: center;
     list-style: none;
     margin-top: 2rem;
+
+    color: #fff;
+  }
+
+  strong{
+    text-transform: capitalize;
+    font-size: 1.2rem;
   }
 
   li {
+    width: 400px;
+
 
     & + li{
       margin-top: 1.5rem;
     }
 
     p{
-        margin-top: .5rem;
+      margin-top: .5rem;
     }
-
 
     a{
       display: inline-block;
+      padding: .6rem;
       margin-top: 1rem;
-      text-decoration: none;
 
+      text-decoration: none;
       color: #ca92e4;
+
+      border: 1px solid rgb(59, 43, 59);
+      transition: .25s;
+
+      &:hover{
+        background-color: rgba(234, 234, 235, 0.253);
+      }
     }
+
   }
 
 }  
