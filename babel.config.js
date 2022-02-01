@@ -4,7 +4,7 @@ module.exports = {
     [
       '@babel/preset-react',
       {
-        //setando para react rodar automatic
+        //set react run automatic
         runtime: 'automatic'
       }
     ]
