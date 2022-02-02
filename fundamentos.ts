@@ -23,10 +23,11 @@ function ShowWelcome(user: User){
 
 
 ShowWelcome({
-  name: 'r',
-  email: 'rod',
+  name: 'rodrigo ',
+  email: 'rod@test.com',
   address: {
-    city:'cod'
+    city:'Rio De Janeiro',
+    state: 'RJ'
   }
 })
 
